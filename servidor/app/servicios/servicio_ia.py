@@ -1,13 +1,14 @@
+from __future__ import annotations
 import json
+from typing import Any
 from groq import Groq
-from typing import Dict, Any
 from app.configuracion import ajustes
 
 class ServicioIA:
     def __init__(self):
         pass
 
-    async def analizar_datos(self, estadisticas: Dict[str, Any], parametros_agente: str) -> Dict[str, Any]:
+    async def analizar_datos(self, estadisticas: dict[str, Any], parametros_agente: str) -> dict[str, Any]:
         """
         Llama al modelo de Groq para interpretar las estadisticas y generar
         diapositivas con puntos y notas del orador.
