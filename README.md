@@ -1,4 +1,4 @@
-# Manual Maestro: AgenteCraft IA 🚀
+# Manual Maestro: AgenteCraft IA 
 > **Plataforma de Inteligencia Analítica y Generación de Reportes Ejecutivos**
 
 ---
@@ -36,7 +36,7 @@ El proyecto está construido sobre un stack moderno y eficiente:
 
 ## 4. Requisitos para Ejecución Local
 
-### Opción A: Usando Docker (Recomendado 🐳)
+### Opción A: Usando Docker (Recomendado )
 Ideal para ejecutar el proyecto sin preocuparse por instalar Python o Node.js manualmente.
 
 *   **Prerrequisitos:** Docker Desktop instalado y configurado.
@@ -47,7 +47,7 @@ Ideal para ejecutar el proyecto sin preocuparse por instalar Python o Node.js ma
     3.  Ejecuta: `docker-compose up --build --force-recreate`
     4.  Accede a `http://localhost:3000`.
 
-### Opción B: Instalación Nativa (Desarrollo 🛠️)
+### Opción B: Instalación Nativa (Desarrollo )
 Si deseas modificar el código y tener autocompletado en tu IDE.
 
 #### Requisitos del Sistema:
